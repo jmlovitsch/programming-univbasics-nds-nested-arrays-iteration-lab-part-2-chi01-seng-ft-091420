@@ -10,7 +10,6 @@ def find_min_in_nested_arrays(array_of_daily_temperatures)
     while element_index < array_of_daily_temperatures[row_index].length do
       if min_value > array_of_daily_temperatures[row_index][element_index]
           min_value = array_of_daily_temperatures[row_index][element_index]
-          new_array.push(array_of_daily_temperatures[row_index][element_index])
         end
         element_index += 1
       end
