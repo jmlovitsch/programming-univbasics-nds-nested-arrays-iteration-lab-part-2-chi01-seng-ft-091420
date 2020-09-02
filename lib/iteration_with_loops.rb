@@ -1,9 +1,9 @@
 def find_min_in_nested_arrays(array_of_daily_temperatures)
   row_index = 0 
-  while count < array_of_daily_temperatures.length do
-    inner_count = 0 
+  while row_index < array_of_daily_temperatures.count do
+    element_index = 0 
     min_value = 10000
-    while inner_count < array_of_daily_temperatures[count].length do
+    while element_index < array_of_daily_temperatures[count].length do
       if min_value > array_of_daily_temperatures[count][inner_count]
         min_value = array_of_daily_temperatures[count][inner_count]
       end
