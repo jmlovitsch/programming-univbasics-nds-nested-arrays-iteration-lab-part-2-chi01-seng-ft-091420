@@ -1,3 +1,5 @@
+
+
 def find_min_in_nested_arrays(array_of_daily_temperatures)
   row_index = 0 
   while row_index < array_of_daily_temperatures.length do
